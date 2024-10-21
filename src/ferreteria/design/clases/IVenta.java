@@ -8,7 +8,7 @@ package ferreteria.design.clases;
  *
  * @author Richi
  */
-public abstract class IVenta {
+public abstract interface IVenta {
     
     /**
      *
