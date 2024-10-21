@@ -4,6 +4,8 @@
  */
 package ferreteria.design.clases;
 
+import java.util.List;
+
 /**
  *
  * @author Richi
@@ -11,7 +13,7 @@ package ferreteria.design.clases;
 public class ticket {
     
     private int id;
-    private Articulo articulo;
+    private List<Articulo> articulo;
     private int cantidad;
     private double precio;
     private double precioTotal;
@@ -34,7 +36,7 @@ public class ticket {
     /**
      * @return the articulo
      */
-    public Articulo getArticulo() {
+    public List<Articulo> getArticulo() {
         return articulo;
     }
 
@@ -42,7 +44,7 @@ public class ticket {
      * @param articulo the articulo to set
      */
     public void setArticulo(Articulo articulo) {
-        this.articulo = articulo;
+        this.articulo = (List<articulo> articulo;
     }
 
     /**
