@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @author Richi
  */
-public class ticket {
+public class ticket implements IVenta{
     
     private int id;
     private List<Articulo> articulo;
